@@ -1,0 +1,63 @@
+body{margin: 2px 4px 4px;
+    background-color: black;
+}
+
+
+header{
+     background-color: #077BCB;
+    padding: 50px 0;
+ 
+    
+}
+header h1 {
+    text-align: center;
+    color: white;
+}
+
+section{
+    background-color: black;
+    margin: 0 auto;
+    width:400px ;
+}
+/*Acá se estiliza la tarjeta*/
+.tarjeta1{
+    background-color: burlywood;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    padding: 25px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.tarjeta1:hover{
+    /*horizontal vertical difumen para darle movimiento al cursor*/
+    box-shadow: 10px 10px 10px gray;
+}
+h1:hover{
+    background-color: black;
+}
+
+
+div img{
+    width: 100%;
+}
+footer{
+    background-color: #077BCB;
+   padding: 50px 0;
+    text-align: center;color: white;
+    margin-top: 50px;
+
+}
+footer p{
+    font-size: 25px;
+}
+.fondo{
+    text-align: center;
+    width: 100%;
+    background-image: image(.fondo);
+}
+.bg-negro{
+    background-color: rgb(0, 0, 0 / 40%);
+}
